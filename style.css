@@ -383,13 +383,78 @@ video {
     -webkit-text-stroke: 2px #fff;
 }
 #footer{
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     background: linear-gradient(to left bottom, #119F3A, #ACE022);
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 150px;
-    padding: 0 100px;
+    padding: 70px 100px;
+}
+#footer>div{
+    margin: 1%;
+}
+#footer>h5{
+    position: relative;
+    left: -75%;
+    top: 65%;
+    color: black;
+}
+
+#left {
+    height: 80%;
+    width: 15%;
+
+}
+#left>#logof{
+    height: 100px;
+    display: block;
+    margin-bottom: 50px;
+
+}
+#left>i{
+    font-size: 40px;
+    color: black;
+}
+
+
+#midl,#midr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    height: 80%;
+    width: 35%;
+    line-height: 40px;
+}
+#midl{
+    position: relative;
+    left: 50px;
+}
+
+#midl>h3{
+    color: black;
+}
+#midr>h3{
+    color: black;
+}
+#midr{
+    position: relative;
+    left: 120px;
+}
+#right {
+    height: 100%;
+    width: 25%;
+    position: relative;
+    left: 180px; 
+    line-height: 25px;
+}
+#right>p{
+    color: black;
+    font-weight: 200;
+}
+#right>h3{
+    margin-top: 5px;
+    color: black;
+    font-size: 20px;
 }
